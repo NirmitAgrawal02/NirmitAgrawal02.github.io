@@ -3,11 +3,11 @@ body {
 }
 
 h2 {
-    color: white;
+    color: wheat;
 }
 
 p {
-    color: white;
+    color: wheat;
 }
 
 .column {
@@ -18,22 +18,46 @@ p {
 
 .introduction {
     float: left;
-    margin-left: 200px;
+    margin-left: 330px;
 }
 
 .photo {
     float: right;
-    margin-right: 200px;
+    margin-right: 330px;
 }
 
 .name {
+    position: relative;
     font: bold;
     font-size: 53px;
     font-family: Apple Chancery, cursive;
     font-style: italic;
-    margin-top: 15px;
+    margin-top: -6px;
     font-weight: 600;
     font-variant: small-caps;
+}
+
+.fade {
+    position: absolute;
+    font: bold;
+    font-size: 60px;
+    margin-top: -37px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #55555555;
+    overflow: hidden;
+}
+
+.desc {
+    position: relative;
+    font: bold;
+    font-size: 17px;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    margin-top: -6px;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: wheat
 }
 
 .row:before {
