@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 50%;
+
+}
+
+.introduction {
+    float: left;
+    margin-left: 200px;
+}
+
+.photo {
+    float: right;
+    margin-right: 200px;
+}
+
+.name {
+    font: bold;
+    font-size: 53px;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    margin-top: 15px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+    height: 160px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
