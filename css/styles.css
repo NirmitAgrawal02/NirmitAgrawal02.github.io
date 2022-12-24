@@ -32,7 +32,31 @@ p {
 figure {
     color: wheat;
     font-family: Apple Chancery, cursive;
-    margin-left: 165px;
+    margin-left: 175px;
+}
+
+a:link {
+    color: wheat;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: wheat;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: wheat;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 figcaption {
@@ -40,6 +64,13 @@ figcaption {
     font-size: 10px;
     font-family: Apple Chancery, cursive;
     font-style: italic;
+}
+
+.section1 {
+    color: wheat;
+    float: left;
+    margin-left: 330px;
+    margin-top: 90px;
 }
 
 .name {
@@ -74,7 +105,7 @@ img {
     font-size: 17px;
     font-family: Apple Chancery, cursive;
     font-style: italic;
-    margin-top: -6px;
+    margin-top: -20px;
     font-weight: 600;
     font-variant: small-caps;
     color: wheat
