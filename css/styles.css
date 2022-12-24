@@ -19,11 +19,14 @@ p {
 .introduction {
     float: left;
     margin-left: 330px;
+    margin-right: -35px;
 }
 
 .photo {
     float: right;
-    margin-right: 330px;
+    margin-right: 380px;
+    margin-left: -35px;
+    ;
 }
 
 .name {
