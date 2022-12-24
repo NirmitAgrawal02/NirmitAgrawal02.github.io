@@ -29,6 +29,19 @@ p {
     ;
 }
 
+figure {
+    color: wheat;
+    font-family: Apple Chancery, cursive;
+    margin-left: 165px;
+}
+
+figcaption {
+    margin-left: -30px;
+    font-size: 10px;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+}
+
 .name {
     position: relative;
     font: bold;
@@ -38,6 +51,10 @@ p {
     margin-top: -6px;
     font-weight: 600;
     font-variant: small-caps;
+}
+
+img {
+    border-radius: 50%;
 }
 
 .fade {
