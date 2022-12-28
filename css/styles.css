@@ -70,7 +70,7 @@ figcaption {
     color: wheat;
     float: left;
     margin-left: 330px;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
 .name {
@@ -91,7 +91,7 @@ img {
 .fade {
     position: absolute;
     font: bold;
-    font-size: 60px;
+    font-size: 51px;
     margin-top: -37px;
     font-family: sans-serif;
     font-style: italic;
