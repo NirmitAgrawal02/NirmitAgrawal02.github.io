@@ -66,11 +66,14 @@ figcaption {
     font-style: italic;
 }
 
-.section1 {
+.Experience {
     color: wheat;
     float: left;
     margin-left: 330px;
     margin-top: 100px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: wheat;
 }
 
 .name {
@@ -91,7 +94,7 @@ img {
 .fade {
     position: absolute;
     font: bold;
-    font-size: 51px;
+    font-size: 60px;
     margin-top: -37px;
     font-family: sans-serif;
     font-style: italic;
