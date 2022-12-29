@@ -13,7 +13,7 @@ p {
 .Header {
     text-align: center;
     color: white;
-    margin-top: 50px;
+    margin-top: 45px;
     font-size: 25px;
     margin-right: 40px;
 }
@@ -77,6 +77,14 @@ i:hover::after {
 
 }
 
+.row:before {
+    content: "";
+    display: table;
+    clear: both;
+    height: 160px;
+
+}
+
 .introduction {
     float: left;
     margin-left: 360px;
@@ -126,15 +134,73 @@ figcaption {
     font-style: italic;
 }
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .Experience {
     color: white;
-    float: left;
-    margin-left: 360px;
     margin-top: 100px;
+    margin-left: 550px;
+    padding: 15px 20px;
+    display: inline-block;
+    position: relative;
     text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: white;
+    font-size: 20px;
 }
+
+.List {
+    display: inline-block;
+    margin-left: -250px;
+    font-family: Apple Chancery, cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    position: relative
+}
+
+.List::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.List:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.Job_Desc {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* .Experience::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.Experience:hover::after {
+    width: 100%;
+    left: 0;
+} */
 
 .name {
     position: relative;
@@ -172,18 +238,4 @@ img {
     font-weight: 600;
     font-variant: small-caps;
     color: white
-}
-
-.row:before {
-    content: "";
-    display: table;
-    clear: both;
-    height: 160px;
-
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
