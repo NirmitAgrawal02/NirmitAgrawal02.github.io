@@ -10,19 +10,30 @@ p {
     color: white;
 }
 
+.Header {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+
 i {
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 24px;
 }
 
-.Navigation_Links {
-    display: flex;
+i:hover {
     color: white;
-    margin-top: 60px;
-    text-align: right;
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: white;
 }
+
 
 .column {
     float: left;
@@ -51,6 +62,7 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
+
 }
 
 a:visited {
