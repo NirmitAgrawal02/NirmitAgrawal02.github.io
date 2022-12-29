@@ -13,40 +13,61 @@ p {
 .Header {
     text-align: center;
     color: white;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 25px;
     margin-right: 40px;
 }
 
-header:hover {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: white;
-}
-
 i {
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 20px;
     font-size: 24px;
+
+    display: inline-block;
+    position: relative;
 }
 
-i:hover {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: white;
+i::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
+
+i:hover::after {
+    width: 100%;
+    left: 0;
+}
+
 
 .res {
-    padding-left: 15px;
+    padding: 15px 20px;
+    display: inline-block;
+    position: relative;
 }
 
-.res:hover {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-color: white;
+.res::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.res:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 
