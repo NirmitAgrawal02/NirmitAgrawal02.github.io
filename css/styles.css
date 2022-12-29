@@ -10,6 +10,17 @@ p {
     color: white;
 }
 
+i {
+    color: aliceblue;
+}
+
+.Navigation_Links {
+    display: flex;
+    color: white;
+    margin-top: 60px;
+    text-align: right;
+}
+
 .column {
     float: left;
     width: 50%;
