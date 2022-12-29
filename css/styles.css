@@ -18,6 +18,11 @@ p {
     margin-right: 40px;
 }
 
+header:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: white;
+}
 
 i {
     color: white;
@@ -29,6 +34,16 @@ i {
 i:hover {
     color: white;
     background-color: transparent;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: white;
+}
+
+.res {
+    padding-left: 15px;
+}
+
+.res:hover {
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: white;
