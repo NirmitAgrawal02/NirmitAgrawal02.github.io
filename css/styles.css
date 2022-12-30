@@ -247,8 +247,9 @@ img {
     color: white;
     text-decoration: none;
     margin-top: 100px;
-    margin-left: 550px;
+    text-align: center;
     padding: 15px 20px;
     display: inline-block;
     position: relative;
+    width: 97%;
 }
