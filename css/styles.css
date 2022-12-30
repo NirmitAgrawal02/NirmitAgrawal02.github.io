@@ -211,11 +211,21 @@ figcaption {
     text-align: left;
 }
 
-.Job_Role::after {
+.Job {
+    font-family: Apple Chancery, cursive;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    position: relative;
+    font-size: 17px;
+    text-align: left;
+}
+
+.Job::after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
-    display: inline-block;
+    display: block;
     height: 2px;
     left: 50%;
     position: absolute;
@@ -224,7 +234,7 @@ figcaption {
     width: 0;
 }
 
-.Job_Role:hover::after {
+.Job:hover::after {
     width: 100%;
     left: 0;
 }
