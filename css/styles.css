@@ -16,12 +16,13 @@ p {
     margin-top: 45px;
     font-size: 25px;
     position: inherit;
+    align-items: center;
 
 }
 
 i {
     color: white;
-    padding: 15px 20px;
+    padding: 2% 3%;
     font-size: 24px;
     display: inline-block;
     position: relative;
@@ -46,7 +47,7 @@ i:hover::after {
 }
 
 .res {
-    padding: 15px 20px;
+    padding: 2% 3%;
     display: inline-block;
     position: relative;
 }
@@ -90,11 +91,66 @@ i:hover::after {
 }
 
 .column {
-    position: inherit;
     display: flex;
     position: relative;
     flex-basis: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center;
+    text-align: center; */
 }
+
+.photo {
+    float: right;
+    padding-right: 42%;
+    position: relative;
+}
+
+.introduction {
+    padding-left: 26%;
+    position: relative;
+    display: inline-block;
+}
+
+@media screen and (max-width: 991px) .column {
+    max-width: 728px;
+}
+
+
+@media screen and (max-width: 479px) .column {
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+@media screen and (max-width: 767px) .column {
+    position: absolute;
+    bottom: 105px;
+    padding: 46px 90px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: linear-gradient(345deg, #000, rgba(0, 0, 0, 0.94) 52%, rgba(0, 0, 0, 0.01));
+}
+
+@media screen and (max-width: 991px) .column {
+    padding-left: 48px;
+    background-image: linear-gradient(101deg, #000, rgba(0, 0, 0, 0.94) 52%, rgba(0, 0, 0, 0.01));
+}
+
+.desc {
+    position: relative;
+    font: bold;
+    font-size: 17px;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: white;
+    display: flex
+}
+
 
 .name {
     position: relative;
@@ -122,28 +178,9 @@ img {
     overflow: hidden;
 }
 
-.desc {
-    position: relative;
-    font: bold;
-    font-size: 17px;
-    font-family: Apple Chancery, cursive;
-    font-style: italic;
-    margin-top: -20px;
-    font-weight: 600;
-    font-variant: small-caps;
-    color: white
-}
 
-.introduction {
-    padding-left: 26%;
-    position: relative;
-}
 
-.photo {
-    float: right;
-    padding-right: 42%;
-    position: relative;
-}
+
 
 figure {
     color: white;
@@ -182,7 +219,6 @@ figcaption {
     font-family: Apple Chancery, cursive;
     font-style: italic;
 }
-
 
 .Experience {
     color: white;
@@ -238,8 +274,6 @@ figcaption {
     width: 100%;
     left: 0;
 }
-
-
 
 .Conclusion {
     font-size: 11px;
