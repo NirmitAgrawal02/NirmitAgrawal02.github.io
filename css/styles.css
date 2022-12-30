@@ -149,6 +149,7 @@ figcaption {
     position: relative;
     text-decoration: underline;
     font-size: 20px;
+    /* text-align: center; */
 }
 
 .List {
@@ -158,7 +159,8 @@ figcaption {
     text-decoration: none;
     color: white;
     font-size: 17px;
-    position: relative
+    position: relative;
+    /* text-align: left; */
 }
 
 .List::after {
