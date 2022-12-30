@@ -241,3 +241,14 @@ img {
     font-variant: small-caps;
     color: white
 }
+
+.Conclusion {
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-left: 550px;
+    padding: 15px 20px;
+    display: inline-block;
+    position: relative;
+}
