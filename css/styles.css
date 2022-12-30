@@ -45,7 +45,6 @@ i:hover::after {
     left: 0;
 }
 
-
 .res {
     padding: 15px 20px;
     display: inline-block;
@@ -70,30 +69,80 @@ i:hover::after {
     left: 0;
 }
 
-
-.column {
-    float: left;
-    width: 50%;
-    position: inherit;
+@media (max-width: 960px) {
+    div {
+        width: 75%;
+    }
 }
 
 .row:before {
     content: "";
-    display: table;
+    display: flex;
     clear: both;
     height: 160px;
 
 }
 
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.column {
+    position: inherit;
+    display: flex;
+    position: relative;
+    flex-basis: 100%;
+}
+
+.name {
+    position: relative;
+    font: bold;
+    font-size: 40px;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    margin-top: -6px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.fade {
+    position: absolute;
+    font: bold;
+    font-size: 53px;
+    margin-top: -37px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: #55555555;
+    overflow: hidden;
+}
+
+.desc {
+    position: relative;
+    font: bold;
+    font-size: 17px;
+    font-family: Apple Chancery, cursive;
+    font-style: italic;
+    margin-top: -20px;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: white
+}
+
 .introduction {
-    float: left;
-    margin-left: 360px;
-    margin-right: -35px;
+    padding-left: 26%;
+    position: relative;
 }
 
 .photo {
     float: right;
-    margin-right: 420px;
+    padding-right: 42%;
+    position: relative;
 }
 
 figure {
@@ -134,51 +183,17 @@ figcaption {
     font-style: italic;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .Experience {
     color: white;
-    margin-top: 100px;
-    margin-left: 550px;
-    padding: 15px 20px;
+    margin-top: 10%;
     display: inline-block;
-    position: inherit;
+    position: relative;
     text-decoration: underline;
     font-size: 20px;
-    /* text-align: center; */
-}
-
-.List {
-    display: inline-block;
-    margin-left: -250px;
-    font-family: Apple Chancery, cursive;
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
     position: relative;
-    /* text-align: left; */
-}
-
-.List::after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-.List:hover::after {
     width: 100%;
-    left: 0;
+    text-align: center;
 }
 
 .Job_Desc {
@@ -186,11 +201,21 @@ figcaption {
     font-size: 14px;
 }
 
-/* .Experience::after {
+.List {
+    display: inline-block;
+    font-family: Apple Chancery, cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    text-align: left;
+}
+
+.Job_Role::after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
-    display: block;
+    display: inline-block;
     height: 2px;
     left: 50%;
     position: absolute;
@@ -199,48 +224,12 @@ figcaption {
     width: 0;
 }
 
-.Experience:hover::after {
+.Job_Role:hover::after {
     width: 100%;
     left: 0;
-} */
-
-.name {
-    position: relative;
-    font: bold;
-    font-size: 40px;
-    font-family: Apple Chancery, cursive;
-    font-style: italic;
-    margin-top: -6px;
-    font-weight: 600;
-    font-variant: small-caps;
 }
 
-img {
-    border-radius: 50%;
-}
 
-.fade {
-    position: absolute;
-    font: bold;
-    font-size: 53px;
-    margin-top: -37px;
-    font-family: sans-serif;
-    font-style: italic;
-    color: #55555555;
-    overflow: hidden;
-}
-
-.desc {
-    position: relative;
-    font: bold;
-    font-size: 17px;
-    font-family: Apple Chancery, cursive;
-    font-style: italic;
-    margin-top: -20px;
-    font-weight: 600;
-    font-variant: small-caps;
-    color: white
-}
 
 .Conclusion {
     font-size: 11px;
