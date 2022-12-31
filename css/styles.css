@@ -151,6 +151,18 @@ i:hover::after {
     display: flex
 }
 
+.contact {
+    text-align: center;
+}
+
+.social_links {
+    /* text-decoration: overline underline; */
+    text-align: center;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
 
 .name {
     position: relative;
