@@ -155,15 +155,6 @@ i:hover::after {
     text-align: center;
 }
 
-.social_links {
-    /* text-decoration: overline underline; */
-    text-align: center;
-    font-family: Gtwalsheimprotrial, sans-serif;
-    font-size: 11px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
 .name {
     position: relative;
     font: bold;
@@ -286,8 +277,39 @@ figcaption {
     left: 0;
 }
 
-.Conclusion {
+.social_links {
+    /* text-decoration: overline underline; */
+    font-family: Gtwalsheimprotrial, sans-serif;
     font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+.social_links::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0px;
+}
+
+.social_links:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+.Conclusion {
+    font-size: 10px;
     color: white;
     text-decoration: none;
     margin-top: 100px;
@@ -296,4 +318,8 @@ figcaption {
     display: inline-block;
     position: relative;
     width: 97%;
+    font-family: Gtwalsheimprotrial, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
 }
