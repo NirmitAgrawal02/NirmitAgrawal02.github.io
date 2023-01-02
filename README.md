@@ -1,2 +1,183 @@
-# PersonalWebsite
-Designed and Developed My Own Personal Website
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Nirmit Agrawal">
+    <meta name="titles" content="Software Developer, Computer Engineer, Music Lover, Chess Player, Otaku" />
+    <meta name="keywords"
+        content="Nirmit Agrawal, resume, portfolio, website, cv, programmer, software developer, software engineer,c++ , open source, python, front end, computer science, computer engineering, music, anime,tech, technology, smartphones, computers, laptops, android, ios, macos, windows, linux, geek" />
+    <title> Nirmit Agrawal</title>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca:400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcuticon" type="image/jpeg" href="Image/pic_icon.ico">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="js\myScript.js"></script>
+
+</head>
+
+<body class="main-body">
+    <div class="Header" id="Nav_Bar">
+        <a href="mailto:nagraw18@asu.edu"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/nirmit-agrawal/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/NirmitAgrawal02"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/nirmit_agrawal/"><i class="fab fa-instagram"></i></a>
+        <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
+            download="Nirmit_Agrawal_Resume">Resume</a>
+    </div>
+    <div class="row">
+        <div class="column" id="col1">
+            <div class="introduction">
+                <div class="photo">
+                    <img src="Image/photo.jpeg">
+                </div>
+                <h2>Hello There, it's me</h2>
+                <!-- <span id="titles" class=fade>
+                </span> -->
+                <div class="fade">Software<br>Developer</div>
+                <p class="name">Nirmit Agrawal</p>
+                <div class="desc">I'm 23 year old software developer specializing in building digital experiences.
+                    Currently, I'm purusing masters from Arizona State University (ASU).
+                </div>
+
+                <figure>
+                    <a href="#section1"><img src="Image/mouse.png"></a>
+                    <figcaption>
+                        <a href="#section1"> Scroll For More</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="Experience" id="section1">
+        <h2>Where I've Worked</h2>
+        <div class="List" id="WorkList">
+            <div class="Job"><span class="far fa-hand-point-right"></span>
+                <a href="https://crmnext.us/">Technical Consultant Intern @ CRMNEXT</a>
+            </div>
+            <div class="Job_Desc">
+                <ul>
+                    <li>
+                        Utilized requirement elicitation techniques to figure out the requirement of the clients and
+                        develop workflows accordingly.
+                    </li>
+                    <li>
+                        Implemented dynamic reloading which significantly reduced the number of API requests by over
+                        35%.
+                    </li>
+                    <li>
+                        Designed, developed and integrated websites and external data sources with CRMNEXT Platform.
+                    </li>
+                    <li>
+                        Organized and managed the entire database as well as optimized and re-engineered procedures by
+                        15%.
+                    </li>
+
+                </ul>
+            </div>
+            <br>
+            <div class="Job"><span class="far fa-hand-point-right"></span>
+                <a href="https://c-bia.com/">Software Engineer Intern @ C-BIA Solutions</a>
+            </div>
+            <div class="Job_Desc">
+                <ul>
+                    <li>
+                        Developed a low cost affordable home assistant model using Raspberry pi, Arduino and
+                        Home-Assistant.
+                    </li>
+                    <li>
+                        Developed and customized dashboard using Node Red, Arduino and Home Assistant.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="Experience" id="section2">
+        <h2>Things I've built</h2>
+        <div class="List" id="WorkList">
+            <div class="Job"><span class="far fa-hand-point-right"></span>
+                <a href="https://github.com/NirmitAgrawal02/PTSB">Product Trading and Bidding System</a>
+            </div>
+            <div class="Job_Desc">
+                <ul>
+                    <li>
+                        Designed and implemented a software system using various design patterns which served as an
+                        auction house for
+                        farmer's market.
+                    </li>
+                    <li>
+                        Developed numerous software test cases to test the system against potential edge cases to check
+                        the efficiency of the
+                        system.
+
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="Job"><span class="far fa-hand-point-right"></span>
+                <a
+                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom</a>
+            </div>
+            <div class="Job_Desc">
+                <ul>
+                    <li>
+                        Created an IoT based affordable solution which enabled people with limited mobility to interact
+                        with machine.
+                    </li>
+                    <li>
+                        Designed and developed communication controller for people with disability using the concept of
+                        Morse Code
+                        Technology which <br>controls the smartphone of the user and helps them interact with other
+                        people.
+                    </li>
+                    <li>
+                        Designed the mobile application and integrated it with low cost home assistant to control the
+                        smart home of the user
+                        which <br> achieved accuracy of 87%.
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="Job"><span class="far fa-hand-point-right"></span>
+                Face Recognition and detection system
+            </div>
+            <div class="Job_Desc">
+                <ul>
+                    <li>
+                        Implemented using Support Vector Machine (SVM) algorithm which achieved an accuracy of 93%.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="Experience" id="section3">
+        <h2>Get In Touch</h2>
+        <div class="List" id="WorkList">
+            <div class="Job_Desc">
+                If you'd like to talk about a project you want help with or need an advice about sofware development,
+                just drop me a message at nagraw18@asu.edu ! I'm currently Open to Work.
+                <br>
+                <br>
+                <div class="s" style="text-align: center;">
+                    <a href="mailto:nagraw18@asu.edu" class="social_links">write me an email <span
+                            class="fas fa-envelope"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <div class="conclusion" id="section1">
+        <p class="Conclusion"> Built and Designed by Nirmit Agrawal </p>
+    </div>
+
+</body>
+
+</html>
