@@ -1,5 +1,9 @@
 body {
     background-color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    text-align: left;
 }
 
 h2 {
@@ -10,14 +14,21 @@ p {
     color: white;
 }
 
-.Header {
-    text-align: center;
-    color: white;
-    margin-top: 45px;
+header {
+    background: #0f1632;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    transition: all .3s ease;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, .1);
     font-size: 25px;
-    position: inherit;
-    align-items: center;
+    text-align: center;
+}
 
+header.hide {
+    top: -120px;
 }
 
 i {
@@ -70,54 +81,53 @@ i:hover::after {
     left: 0;
 }
 
-@media (max-width: 960px) {
-    div {
-        width: 75%;
-    }
-}
 
 .row:before {
     content: "";
     display: flex;
-    clear: both;
-    height: 160px;
+    height: 200px;
 
 }
 
 .row:after {
     content: "";
     display: flex;
-    clear: both;
 }
 
 .column {
-    display: flex;
-    position: relative;
-    flex-basis: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    /* align-items: center;
-    text-align: center; */
+    width: auto;
+    padding: 15px 30px 15px 30px;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
 }
+
 
 .photo {
     float: right;
-    padding-right: 42%;
+    margin-right: 31%;
     position: relative;
 }
 
 .introduction {
-    padding-left: 26%;
+    margin-left: 31%;
     position: relative;
     display: inline-block;
 }
 
-@media screen and (max-width: 991px) .column {
-    max-width: 728px;
-}
+/* @media screen and (max-width: 991px) {
+    .column {
+        width: 75%;
+    }
+
+    .Experience {
+        width: 75%;
+    }
+} */
 
 
-@media screen and (max-width: 479px) .column {
+/* @media screen and (max-width: 479px) .column {
     padding-right: 21px;
     padding-left: 21px;
 }
@@ -131,12 +141,12 @@ i:hover::after {
     -ms-flex-align: center;
     align-items: center;
     background-image: linear-gradient(345deg, #000, rgba(0, 0, 0, 0.94) 52%, rgba(0, 0, 0, 0.01));
-}
+} */
 
-@media screen and (max-width: 991px) .column {
+/* @media screen and (max-width: 991px) .column {
     padding-left: 48px;
     background-image: linear-gradient(101deg, #000, rgba(0, 0, 0, 0.94) 52%, rgba(0, 0, 0, 0.01));
-}
+} */
 
 .desc {
     position: relative;
