@@ -1,10 +1,10 @@
-<html>
+<!DOCTYPE html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="Content-Style-Type" content="text/css">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="author" content="Nirmit Agrawal">
     <meta name="titles" content="Software Developer, Computer Engineer, Music Lover, Chess Player, Otaku" />
     <meta name="keywords"
@@ -21,27 +21,31 @@
 </head>
 
 <body class="main-body">
-    <div class="Header" id="Nav_Bar">
+    <header>
         <a href="mailto:nagraw18@asu.edu"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/nirmit-agrawal/"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/NirmitAgrawal02"><i class="fab fa-github"></i></a>
         <a href="https://www.instagram.com/nirmit_agrawal/"><i class="fab fa-instagram"></i></a>
         <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
             download="Nirmit_Agrawal_Resume">Resume</a>
-    </div>
+
+    </header>
+
     <div class="row">
         <div class="column" id="col1">
             <div class="introduction">
                 <div class="photo">
                     <img src="Image/photo.jpeg">
                 </div>
-                <h2>Hello There, it's me</h2>
-                <!-- <span id="titles" class=fade>
+                <div class="heading">
+                    <h2>Hello There, it's me</h2>
+                    <!-- <span id="titles" class=fade>
                 </span> -->
-                <div class="fade">Software<br>Developer</div>
-                <p class="name">Nirmit Agrawal</p>
-                <div class="desc">I'm 23 year old software developer specializing in building digital experiences.
-                    Currently, I'm purusing masters from Arizona State University (ASU).
+                    <div class="fade">Software<br>Developer</div>
+                    <p class="name">Nirmit Agrawal</p>
+                    <div class="desc">I'm 23 year old software developer specializing in building digital experiences.
+                        Currently, I'm purusing masters from Arizona State University (ASU).
+                    </div>
                 </div>
 
                 <figure>
@@ -172,7 +176,7 @@
         </div>
     </div>
     <br>
-    <div class="conclusion" id="section1">
+    <div class="conclusion" id="section4">
         <p class="Conclusion"> Built and Designed by Nirmit Agrawal </p>
     </div>
 
