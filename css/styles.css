@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
     padding: 0;
     font-weight: 400;
     text-align: left;
@@ -115,6 +116,11 @@ i:hover::after {
     margin-left: 12%;
     position: inherit;
     display: inline-block;
+}
+
+.heading {
+    display: table;
+    position: relative;
 }
 
 /* @media screen and (max-width: 991px) {
@@ -243,6 +249,8 @@ figcaption {
     position: relative;
     width: 100%;
     text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .List {
@@ -255,6 +263,8 @@ figcaption {
     text-align: left;
     text-transform: none;
     letter-spacing: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .Job {
@@ -265,6 +275,8 @@ figcaption {
     position: relative;
     font-size: 17px;
     text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .Job::after {
@@ -291,6 +303,8 @@ figcaption {
     text-transform: none;
     letter-spacing: 0px;
     font-family: Apple Chancery, cursive;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .social_links {
