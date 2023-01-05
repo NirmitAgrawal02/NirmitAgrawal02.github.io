@@ -1,62 +1,77 @@
-(function () {
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-13%";
+    }
+    prevScrollpos = currentScrollPos;
+}
 
-    var doc = document.documentElement;
-    var w = window;
 
-    var prevScroll = w.scrollY || doc.scrollTop;
-    var curScroll;
-    var direction = 0;
-    var prevDirection = 0;
 
-    var header = document.getElementById('site-header');
 
-    var checkScroll = function () {
+// (function () {
 
-        /*
-        ** Find the direction of scroll
-        ** 0 - initial, 1 - up, 2 - down
-        */
+//     var doc = document.documentElement;
+//     var w = window;
 
-        curScroll = w.scrollY || doc.scrollTop;
-        if (curScroll > prevScroll) {
-            //scrolled up
-            direction = 2;
-        }
-        else if (curScroll < prevScroll) {
-            //scrolled down
-            direction = 1;
-        }
+//     var prevScroll = w.scrollY || doc.scrollTop;
+//     var curScroll;
+//     var direction = 0;
+//     var prevDirection = 0;
 
-        if (direction !== prevDirection) {
-            toggleHeader(direction, curScroll);
-        }
+//     var header = document.getElementById('site-header');
 
-        prevScroll = curScroll;
-    };
+//     var checkScroll = function () {
 
-    var toggleHeader = function (direction, curScroll) {
-        if (direction === 2 && curScroll > 1000) {
+//         /*
+//         ** Find the direction of scroll
+//         ** 0 - initial, 1 - up, 2 - down
+//         */
 
-            //replace 52 with the height of your header in px
+//         curScroll = w.scrollY || doc.scrollTop;
+//         if (curScroll > prevScroll) {
+//             //scrolled up
+//             direction = 2;
+//         }
+//         else if (curScroll < prevScroll) {
+//             //scrolled down
+//             direction = 1;
+//         }
 
-            header.classList.add('hide');
-            prevDirection = direction;
-        }
-        else if (direction === 1) {
-            header.classList.remove('hide');
-            prevDirection = direction;
-        }
-    };
+//         if (direction !== prevDirection) {
+//             toggleHeader(direction, curScroll);
+//         }
 
-    window.addEventListener('scroll', checkScroll);
+//         prevScroll = curScroll;
+//     };
 
-})();
+//     var toggleHeader = function (direction, curScroll) {
+//         if (direction === 2 && curScroll > 1000) {
 
-// // Hide Header on on scroll down
+//             //replace 52 with the height of your header in px
+
+//             header.classList.add('hide');
+//             prevDirection = direction;
+//         }
+//         else if (direction === 1) {
+//             header.classList.remove('hide');
+//             prevDirection = direction;
+//         }
+//     };
+
+//     window.addEventListener('scroll', checkScroll);
+
+// })();
+
+// Hide Header on on scroll down
 // var didScroll;
 // var lastScrollTop = 0;
 // var delta = 5;
-// var navbarHeight = $('header').outerHeight();
+// var navbarHeight = $("#header").outerHeight();
 
 // $(window).scroll(function (event) {
 //     didScroll = true;
@@ -80,11 +95,14 @@
 //     // This is necessary so you never see what is "behind" the navbar.
 //     if (st > lastScrollTop && st > navbarHeight) {
 //         // Scroll Down
-//         $('header').removeClass('nav-down').addClass('nav-up');
+//         $("#header").addClass('nav-up');
 //     } else {
 //         // Scroll Up
+//         console.log('doc height: ', $(document).height());
+//         console.log('st+window height: ', st + $(window).height());
+
 //         if (st + $(window).height() < $(document).height()) {
-//             $('header').removeClass('nav-up').addClass('nav-down');
+//             $("#header").removeClass('nav-up');
 //         }
 //     }
 

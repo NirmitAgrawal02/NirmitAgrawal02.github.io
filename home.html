@@ -21,7 +21,7 @@
 </head>
 
 <body class="main-body">
-    <header>
+    <div id="navbar">
         <a href="mailto:nagraw18@asu.edu"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/nirmit-agrawal/"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/NirmitAgrawal02"><i class="fab fa-github"></i></a>
@@ -29,7 +29,7 @@
         <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
             download="Nirmit_Agrawal_Resume">Resume</a>
 
-    </header>
+    </div>
 
     <div class="row">
         <div class="column" id="col1">

@@ -18,9 +18,9 @@ p {
     color: white;
 }
 
-header {
-    background: #0f1632;
-    height: 12.5%;
+#navbar {
+    background: #000;
+    height: 13%;
     position: fixed;
     top: 0;
     transition: all .3s ease;
@@ -29,12 +29,11 @@ header {
     box-shadow: 0 1px 25px rgba(0, 0, 0, .1);
     font-size: 25px;
     text-align: center;
+    transition: top 0.3s;
     margin-left: -2%;
 }
 
-header.hide {
-    top: -120px;
-}
+
 
 i {
     color: white;
