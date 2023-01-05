@@ -115,7 +115,7 @@ i:hover::after {
 
 .introduction {
     margin-left: 12%;
-    position: inherit;
+    position: relative;
     display: inline-block;
 }
 
@@ -166,7 +166,6 @@ i:hover::after {
     font-weight: 600;
     font-variant: small-caps;
     color: white;
-    display: flex
 }
 
 .contact {
@@ -207,6 +206,10 @@ figure {
     color: white;
     font-family: Apple Chancery, cursive;
     text-align: center;
+    display: grid;
+    align-items: center;
+    align-self: center;
+
 }
 
 a:link {
