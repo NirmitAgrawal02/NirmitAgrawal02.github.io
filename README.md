@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -26,7 +28,9 @@
         <a href="https://www.instagram.com/nirmit_agrawal/"><i class="fab fa-instagram"></i></a>
         <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
             download="Nirmit_Agrawal_Resume">Resume</a>
+
     </div>
+
     <div class="row">
         <div class="column" id="col1">
             <div class="introduction">
@@ -43,6 +47,7 @@
                         Currently, I'm purusing masters from Arizona State University (ASU).
                     </div>
                 </div>
+
                 <figure>
                     <a href="#section1"><img src="Image/mouse.png" class="main"></a>
                     <figcaption>
@@ -75,6 +80,7 @@
                         Organized and managed the entire database as well as optimized and re-engineered procedures by
                         15%.
                     </li>
+
                 </ul>
             </div>
             <br>
@@ -112,6 +118,7 @@
                         Developed numerous software test cases to test the system against potential edge cases to check
                         the efficiency of the
                         system.
+
                     </li>
                 </ul>
             </div>
@@ -158,7 +165,7 @@
         <div class="List" id="WorkList">
             <div class="pubs">
                 <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
-                        src="Image/RP-3.jpg"></a>
+                        src="Image/RP-3.jpg" class="certificates"></a>
             </div>
         </div>
     </div>
@@ -166,12 +173,11 @@
         <h2>Certifications</h2>
         <div class="List" id="WorkList">
             <div class="pubs">
-                <a href="https://coursera.org/verify/ZGAKH7SRVSFE"><img src="Image/CS.png"
-                        style="padding-left: 5px;padding-right:7px"></a>
+                <a href="https://coursera.org/verify/ZGAKH7SRVSFE"><img src="Image/CS.png" class="certificates"></a>
                 <a href="https://ude.my/UC-401ed355-3efa-47f6-871d-18b6e9db14ad"><img src="Image/DS.jpg"
-                        style="padding-left: 5px;padding-right:7px"></a>
-                <a href="https://ude.my/UC-FYSNQORH"><img src="Image/PB.jpg"
-                        style="padding-left: 5px;padding-right:7px"></a>
+                        class="certificates"></a>
+                <a href="https://ude.my/UC-FYSNQORH"><img src="Image/PB.jpg" class="certificates"></a>
+
             </div>
         </div>
     </div>
@@ -195,4 +201,7 @@
     <div class="conclusion" id="section4">
         <p class="Conclusion"> Built and Designed by Nirmit Agrawal </p>
     </div>
+
 </body>
+
+</html>
