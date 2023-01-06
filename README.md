@@ -18,7 +18,7 @@
 
 </head>
 
-<body class="main-body">
+<body class="main-body" style="font-family: Cambria;">
     <div id="navbar">
         <a href="mailto:nagraw18@asu.edu"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/nirmit-agrawal/"><i class="fab fa-linkedin"></i></a>
