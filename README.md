@@ -18,7 +18,7 @@
 
 </head>
 
-<body class="main-body" style="font-family: Cambria;">
+<body class="main-body">
     <div id="navbar">
         <a href="mailto:nagraw18@asu.edu"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/nirmit-agrawal/"><i class="fab fa-linkedin"></i></a>
@@ -26,12 +26,14 @@
         <a href="https://www.instagram.com/nirmit_agrawal/"><i class="fab fa-instagram"></i></a>
         <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
             download="Nirmit_Agrawal_Resume">Resume</a>
+
     </div>
+
     <div class="row">
         <div class="column" id="col1">
             <div class="introduction">
                 <div class="photo">
-                    <img src="Image/Photo.jpeg">
+                    <img src="Image/Photo.jpeg" class="main">
                 </div>
                 <div class="heading">
                     <h2>Hello There, it's me</h2>
@@ -43,8 +45,9 @@
                         Currently, I'm purusing masters from Arizona State University (ASU).
                     </div>
                 </div>
+
                 <figure>
-                    <a href="#section1"><img src="Image/mouse.png"></a>
+                    <a href="#section1"><img src="Image/mouse.png" class="main"></a>
                     <figcaption>
                         <a href="#section1"> Scroll For More</a>
                     </figcaption>
@@ -75,6 +78,7 @@
                         Organized and managed the entire database as well as optimized and re-engineered procedures by
                         15%.
                     </li>
+
                 </ul>
             </div>
             <br>
@@ -112,6 +116,7 @@
                         Developed numerous software test cases to test the system against potential edge cases to check
                         the efficiency of the
                         system.
+
                     </li>
                 </ul>
             </div>
@@ -154,10 +159,34 @@
         <br>
     </div>
     <div class="Experience" id="section3">
+        <h2>Publications</h2>
+        <div class="List" id="WorkList">
+            <div class="pubs">
+                <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
+                        src="Image/RP-3.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <div class="Experience" id="section3">
+        <h2>Certifications</h2>
+        <div class="List" id="WorkList">
+            <div class="pubs">
+                <a href="https://coursera.org/verify/ZGAKH7SRVSFE"><img src="Image/CS.png"
+                        style="padding-left: 5px;padding-right:7px"></a>
+                <a href="https://ude.my/UC-401ed355-3efa-47f6-871d-18b6e9db14ad"><img src="Image/DS.jpg"
+                        style="padding-left: 5px;padding-right:7px"></a>
+                <a href="https://ude.my/UC-FYSNQORH"><img src="Image/PB.jpg"
+                        style="padding-left: 5px;padding-right:7px"></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="Experience" id="section4">
         <h2>Get In Touch</h2>
         <div class="List" id="WorkList">
             <div class="Job_Desc">
-                If you'd like to talk about a project you want help with or need an advice about sofware development,
+                If you'd like to talk about a project you want help with or need an advice about sofware
+                development,
                 just drop me a message at nagraw18@asu.edu ! I'm currently Open to Work.
                 <br>
                 <br>
