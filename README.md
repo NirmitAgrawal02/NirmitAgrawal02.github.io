@@ -28,9 +28,7 @@
         <a href="https://www.instagram.com/nirmit_agrawal/"><i class="fab fa-instagram"></i></a>
         <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
             download="Nirmit_Agrawal_Resume">Resume</a>
-
     </div>
-
     <div class="row">
         <div class="column" id="col1">
             <div class="introduction">
@@ -47,7 +45,6 @@
                         Currently, I'm purusing masters from Arizona State University (ASU).
                     </div>
                 </div>
-
                 <figure>
                     <a href="#section1"><img src="Image/mouse.png" class="main"></a>
                     <figcaption>
@@ -80,7 +77,6 @@
                         Organized and managed the entire database as well as optimized and re-engineered procedures by
                         15%.
                     </li>
-
                 </ul>
             </div>
             <br>
@@ -118,7 +114,6 @@
                         Developed numerous software test cases to test the system against potential edge cases to check
                         the efficiency of the
                         system.
-
                     </li>
                 </ul>
             </div>
@@ -166,6 +161,10 @@
             <div class="pubs">
                 <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
                         src="Image/RP-3.jpg" class="certificates"></a>
+                <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
+                        src="Image/RP-3.jpg" class="certificates"></a>
+                <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
+                        src="Image/RP-3.jpg" class="certificates"></a>
             </div>
         </div>
     </div>
@@ -177,7 +176,6 @@
                 <a href="https://ude.my/UC-401ed355-3efa-47f6-871d-18b6e9db14ad"><img src="Image/DS.jpg"
                         class="certificates"></a>
                 <a href="https://ude.my/UC-FYSNQORH"><img src="Image/PB.jpg" class="certificates"></a>
-
             </div>
         </div>
     </div>
