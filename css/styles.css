@@ -7,7 +7,7 @@ body {
     text-align: left;
     overflow-x: hidden;
     width: 100%;
-    font-family: Apple Chancery, cursive;
+    font-family: Cambria;
 }
 
 h2 {
@@ -59,7 +59,7 @@ i::after {
 
 i:hover::after {
     width: 100%;
-    left: 0;
+    left: 0
 }
 
 .res {
@@ -161,7 +161,7 @@ i:hover::after {
     position: relative;
     font: bold;
     font-size: 17px;
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     font-style: italic;
     margin-top: -20px;
     font-weight: 600;
@@ -177,7 +177,7 @@ i:hover::after {
     position: relative;
     font: bold;
     font-size: 40px;
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     font-style: italic;
     margin-top: -6px;
     font-weight: 600;
@@ -205,7 +205,7 @@ i:hover::after {
 
 figure {
     color: white;
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     text-align: center;
     display: grid;
     align-items: center;
@@ -240,7 +240,7 @@ a:active {
 
 figcaption {
     font-size: 10px;
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     font-style: italic;
 }
 
@@ -260,7 +260,7 @@ figcaption {
 
 .List {
     display: inline-block;
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     text-decoration: none;
     color: white;
     font-size: 17px;
@@ -273,7 +273,7 @@ figcaption {
 }
 
 .Job {
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     text-decoration: none;
     display: inline-block;
     color: white;
@@ -307,7 +307,7 @@ figcaption {
     font-size: 14px;
     text-transform: none;
     letter-spacing: 0px;
-    font-family: Apple Chancery, cursive;
+    /* font-family: Apple Chancery, cursive; */
     margin-left: 2%;
     margin-right: 2%;
 }
