@@ -184,7 +184,7 @@ i:hover::after {
     font-variant: small-caps;
 }
 
-img {
+.main {
     border-radius: 50%;
 }
 
