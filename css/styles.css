@@ -343,6 +343,10 @@ figcaption {
     left: 0;
 }
 
+.certificates {
+    padding-left: 6px;
+    padding-right: 6px;
+}
 
 .Conclusion {
     font-size: 10px;
