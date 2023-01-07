@@ -1,4 +1,3 @@
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -158,10 +157,10 @@
         <h2>Publications</h2>
         <div class="List" id="WorkList">
             <div class="pubs">
-                <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
-                        src="Image/RP-3.jpg" class="certificates"></a>
-                <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
-                        src="Image/RP-3.jpg" class="certificates"></a>
+                <a href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84"><img
+                        src="Image/RP-1.jpg" class="certificates"></a>
+                <a href="https://drive.google.com/file/d/1CHQUgROO8I9E7sVQERjjFYEl36hspsDQ/view"><img
+                        src="Image/RP-2.jpg" class="certificates"></a>
                 <a href="https://drive.google.com/file/d/1oUDnKU2Bpxf6htyGLllSXozBmdB0ycwA/view"><img
                         src="Image/RP-3.jpg" class="certificates"></a>
             </div>
