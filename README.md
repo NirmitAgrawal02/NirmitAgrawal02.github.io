@@ -1,3 +1,5 @@
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -20,13 +22,16 @@
 
 <body class="main-body">
     <div id="navbar">
+        <!-- <a href="home.html"><img src="Image/logo3.jpg"></a> -->
         <a href="mailto:nagraw18@asu.edu"><i class="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/nirmit-agrawal/"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/NirmitAgrawal02"><i class="fab fa-github"></i></a>
         <a href="https://www.instagram.com/nirmit_agrawal/"><i class="fab fa-instagram"></i></a>
-        <a class="res" href="https://drive.google.com/file/d/1sAKym0olfjwkFQ0EcMo42AezGCQRsaHI/view?usp=share_link"
+        <a class="res" href="https://drive.google.com/file/d/1oC-nq9QZdGbP99rY9TwpLeG6WoGGtalC/view?usp=drive_link"
             download="Nirmit_Agrawal_Resume">Resume</a>
+
     </div>
+
     <div class="row">
         <div class="column" id="col1">
             <div class="introduction">
@@ -39,10 +44,11 @@
                 </span> -->
                     <div class="fade">Software<br>Developer</div>
                     <p class="name">Nirmit Agrawal</p>
-                    <div class="desc">I'm 23 year old software developer specializing in building digital experiences.
-                        Currently, I'm purusing masters from Arizona State University (ASU).
+                    <div class="desc">I'm 24 year old software developer specializing in building digital experiences.
+                        Currently, I am actively looking for full-time opportunities.
                     </div>
                 </div>
+
                 <figure>
                     <a href="#section1"><img src="Image/mouse.png" class="main"></a>
                     <figcaption>
@@ -61,20 +67,22 @@
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Utilized requirement elicitation techniques to figure out the requirement of the clients and
-                        develop workflows accordingly.
+                        Formulated and documented Product 360 overview, optimizing workflows and achieving a 25% increase in operational efficiency
                     </li>
                     <li>
-                        Implemented dynamic reloading which significantly reduced the number of API requests by over
-                        35%.
+                        Designed, developed, and integrated websites and external data sources with CRMNEXT Platform. Led management of MySQL 
+                        database and optimization of procedures, improving efficiency by 40%
                     </li>
                     <li>
-                        Designed, developed and integrated websites and external data sources with CRMNEXT Platform.
+                        Boosted performance by 30% through implementation of Auto-reloading functionality
                     </li>
                     <li>
-                        Organized and managed the entire database as well as optimized and re-engineered procedures by
-                        15%.
+                        Constructed interactive reports and analytical dashboards, reducing manual data manipulation time by 99%
                     </li>
+                    <li>
+                         Attained a 98% reliability rate by developing .NET APIs and conducting rigorous testing utilizing Postman and Soap UI
+                    </li>
+
                 </ul>
             </div>
             <br>
@@ -84,11 +92,11 @@
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Developed a low cost affordable home assistant model using Raspberry pi, Arduino and
-                        Home-Assistant.
+                        Engineered a cost-effective home assistant model leveraging Raspberry Pi, Arduino, and Home Assistant, achieving a 47% 
+                        reduction in implementation costs compared to traditional solutions
                     </li>
                     <li>
-                        Developed and customized dashboard using Node Red, Arduino and Home Assistant.
+                        Produced a user-friendly dashboard using Flutter, enhancing accessibility and control, leading to a 51% surge in user satisfaction
                     </li>
                 </ul>
             </div>
@@ -112,6 +120,7 @@
                         Developed numerous software test cases to test the system against potential edge cases to check
                         the efficiency of the
                         system.
+
                     </li>
                 </ul>
             </div>
@@ -128,14 +137,12 @@
                     </li>
                     <li>
                         Designed and developed communication controller for people with disability using the concept of
-                        Morse Code
-                        Technology which <br>controls the smartphone of the user and helps them interact with other
-                        people.
+                        Morse Code Technology which controls the <br>smartphone of the user and helps them interact with
+                        other people.
                     </li>
                     <li>
                         Designed the mobile application and integrated it with low cost home assistant to control the
-                        smart home of the user
-                        which <br> achieved accuracy of 87%.
+                        smart home of the user which achieved accuracy of 87%.
                     </li>
                 </ul>
             </div>
@@ -174,6 +181,7 @@
                 <a href="https://ude.my/UC-401ed355-3efa-47f6-871d-18b6e9db14ad"><img src="Image/DS.jpg"
                         class="certificates"></a>
                 <a href="https://ude.my/UC-FYSNQORH"><img src="Image/PB.jpg" class="certificates"></a>
+
             </div>
         </div>
     </div>
@@ -199,3 +207,5 @@
     </div>
 
 </body>
+
+</html>
