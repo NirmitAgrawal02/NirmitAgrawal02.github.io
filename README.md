@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -109,7 +109,7 @@
         <div class="List" id="WorkList"> 
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://github.com/sohmpatil/NPID-UI">National Police Incident Dashboard   <i> | React.js, Python, Apache Jena Fuseki, Sparql </i></a>
+                    href="https://github.com/sohmpatil/NPID-UI">National Police Incident Dashboard</a>
             </div>
             <div class="Job_Desc">
                 <ul>
@@ -129,7 +129,7 @@
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://play.unity.com/mg/other/manpac-build-webgl">PACMAN 3D  <i> | Unity, C# </i></a>
+                    href="https://play.unity.com/mg/other/manpac-build-webgl">PACMAN 3D</a>
             </div>
             <div class="Job_Desc">
                 <ul>
@@ -147,7 +147,7 @@
             </div>
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
-                Face Recognition and detection system <i> | python </i>
+                Face Recognition and detection system
             </div>
             <div class="Job_Desc">
                 <ul>
@@ -163,7 +163,7 @@
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom <i> | Kotlin, Node-Red, Raspberry Pi, Arduino </i></a>
+                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom</a>
             </div>
             <div class="Job_Desc">
                 <ul>
