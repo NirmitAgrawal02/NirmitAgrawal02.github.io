@@ -70,17 +70,16 @@
                         Formulated and documented Product 360 overview and optimized pipeline for client, achieving a 25% increase in efficiency
                     </li>
                     <li>
-                        Designed, developed, and integrated websites and external data sources with CRMNEXT Platform. Led management of MySQL 
+                        Designed, developed, and integrated websites and external data sources with CRMNEXT Platform. Led management of MySQL
                         database and optimization of procedures, improving efficiency by 40%
-                    </li>
-                    <li>
-                        Boosted performance by 30% through implementation of Auto-reloading functionality
                     </li>
                     <li>
                         Constructed interactive reports and analytical dashboards, reducing manual data manipulation time by 99%
                     </li>
                     <li>
-                         Attained a 98% reliability rate by developing .NET APIs and conducting rigorous testing utilizing Postman and Soap UI
+                        Crafted ASP.NET API, conducted rigorous testing utilizing Postman and Soap UI, achieving a 15% defect reduction and a 20%
+                        improved system response times. Boosted performance by 30% through implementation of Auto-reloading functionality
+
                     </li>
 
                 </ul>
@@ -92,13 +91,13 @@
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Engineered a cost-effective home assistant model leveraging Raspberry Pi, Arduino, and Home Assistant, achieving a 47% 
+                        Engineered a cost-effective home assistant model leveraging Raspberry Pi, Arduino, and Home Assistant, achieving a 47%
                         reduction in implementation costs compared to traditional solutions
                     </li>
                     <li>
                         Produced a user-friendly dashboard using Flutter, enhancing accessibility and control, leading to a 51% surge in user satisfaction
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -106,10 +105,10 @@
     </div>
     <div class="Experience" id="section2">
         <h2>Things I've built</h2>
-        <div class="List" id="WorkList"> 
+        <div class="List" id="WorkList">
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://github.com/sohmpatil/NPID-UI">National Police Incident Dashboard</a>
+                    href="https://github.com/sohmpatil/NPID-UI">National Police Incident Dashboard   <i> | React.js, Python, Apache Jena Fuseki, Sparql </i></a>
             </div>
             <div class="Job_Desc">
                 <ul>
@@ -118,7 +117,7 @@
                         Integrated Flask API for seamless data flow, expanding application capabilities
                     </li>
                     <li>
-                        Led data preprocessing with pandas, analyzing a 1900+ police incidents dataset. Generated 42,000+ triples, showcasing advanced 
+                        Led data preprocessing with pandas, analyzing a 1900+ police incidents dataset. Generated 42,000+ triples, showcasing advanced
                         RDF data management. Developed an ontology-based system for optimized data organization and query efficiency
                     </li>
                     <li>
@@ -129,7 +128,7 @@
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://play.unity.com/mg/other/manpac-build-webgl">PACMAN 3D</a>
+                    href="https://play.unity.com/mg/other/manpac-build-webgl">PACMAN 3D  <i> | Unity, C# </i></a>
             </div>
             <div class="Job_Desc">
                 <ul>
@@ -147,7 +146,7 @@
             </div>
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
-                Face Recognition and detection system
+                Face Recognition and detection system <i> | python </i>
             </div>
             <div class="Job_Desc">
                 <ul>
@@ -155,7 +154,7 @@
                         Built an advanced face detection and recognition system using OpenCV library and SVM (Support Vector Machine) algorithm
                     </li>
                     <li>
-                        Extracted key facial features(eyes, nose, and mouth) utilizing a feature extraction algorithm and delivered a precision of 91% by 
+                        Extracted key facial features(eyes, nose, and mouth) utilizing a feature extraction algorithm and delivered a precision of 91% by
                         training an SVM classifier on extracted facial features to perform face recognition
                     </li>
                 </ul>
@@ -163,12 +162,12 @@
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom</a>
+                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom <i> | Kotlin, Node-Red, Raspberry Pi, Arduino </i></a>
             </div>
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Directed creation of an innovative and cost-effective IoT(Internet of Things) solution, resulting in a 30% increase in user-machine 
+                        Directed creation of an innovative and cost-effective IoT(Internet of Things) solution, resulting in a 30% increase in user-machine
                         interaction for individuals with limited mobility
                     </li>
                     <li>
@@ -198,7 +197,7 @@
                     </li>
                 </ul>
             </div>
-            
+
         </div>
         <br>
     </div>
