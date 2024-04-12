@@ -62,26 +62,52 @@
         <h2>Where I've Worked</h2>
         <div class="List" id="WorkList">
             <div class="Job"><span class="far fa-hand-point-right"></span>
-                <a href="https://crmnext.us/">Technical Consultant Intern @ CRMNEXT</a>
+                <a href="https://autobimroute.com/">Software Engineer Intern @ Auto BIM Route</a>
             </div>
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Formulated and documented Product 360 overview and optimized pipeline for client, achieving a 25% increase in efficiency
+                        Mitigated legacy Windows Forms application to a modern WPF application using C#, XAML and .NET.
                     </li>
                     <li>
-                        Designed, developed, and integrated websites and external data sources with CRMNEXT Platform. Led management of MySQL
-                        database and optimization of procedures, improving efficiency by 40%
+                        Adopted MVVM architecture, integrating OpenTK and OpenGL with JSON files for rendering 2D design layouts.
                     </li>
                     <li>
-                        Constructed interactive reports and analytical dashboards, reducing manual data manipulation time by 99%
+                        Established a fully automated CI/CD pipeline, reducing deployment time by 30%.
                     </li>
                     <li>
-                        Crafted ASP.NET API, conducted rigorous testing utilizing Postman and Soap UI, achieving a 15% defect reduction and a 20%
-                        improved system response times. Boosted performance by 30% through implementation of Auto-reloading functionality
+                        Incorporate ABR AI API into the new software systems, aiming for a 3.5% reduction in processing time for relevant tasks
 
                     </li>
 
+                </ul>
+            </div>
+            <br>
+            <div class="Job"><span class="far fa-hand-point-right"></span>
+                <a href="https://crmnext.us/">Technical Consultant Intern @ Acidaes Solutions Pvt LTD</a>
+            </div>
+            <div class="Job_Desc">
+                <ul>
+                    <li>
+                        Formulated and documented Product 360 overview and optimized pipeline for client, achieving a 12% increase in efficiency.
+                    </li>
+                    <li>
+                        Developed, and integrated websites, external data sources, and AI-driven chatbots, enhancing customer service response time
+                        by 30%.
+                    </li>
+                    <li>
+                        Collaborated on a team of 10 to migrate CRMnext to a microservices architecture, enhancing scalability by 13%.
+                    </li>
+                    <li>
+                        Created a real-time analytics dashboard using React and D3.js, improving data visualization for 1,000+ users.
+                    </li>
+                    <li>
+                        Crafted RESTful APIs, conducted rigorous testing using Postman and Soap UI, and enhanced CRMnext mobile responsiveness with
+                        Bootstrap for 5,000+ mobile users.
+                    </li>
+                    <li>
+                        Led the management of the MySQL database and optimization of procedures.
+                    </li>
                 </ul>
             </div>
             <br>
@@ -108,61 +134,63 @@
         <div class="List" id="WorkList">
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://github.com/sohmpatil/NPID-UI">National Police Incident Dashboard   <i> | React.js, Python, Apache Jena Fuseki, Sparql </i></a>
+                    href="https://github.com/sohmpatil/NPID-UI">National Police Incident Dashboard  </a>
             </div>
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Implemented a full stack web application with a 99.9% uptime on Amazon EC2, ensuring continuous accessibility for users.
-                        Integrated Flask API for seamless data flow, expanding application capabilities
+                        Created a user-friendly National Police Incident Database (NPID) full stack application using semantic web engineering.
                     </li>
                     <li>
-                        Led data preprocessing with pandas, analyzing a 1900+ police incidents dataset. Generated 42,000+ triples, showcasing advanced
-                        RDF data management. Developed an ontology-based system for optimized data organization and query efficiency
+                        Deployed on Amazon EC2 with a 99.9% uptime, ensuring continuous accessibility. Integrated Flask API for seamless data flow,
+                        expanding application capabilities.
                     </li>
                     <li>
-                        Accomplished a responsive user interface, reducing page load times by 99% through ReactJS optimization
+                        Preprocessed data with pandas, analyzing a 1900+ police incidents dataset, generating 42,000+ triples. Built an ontology-based
+                        system for optimized data organization and query efficiency.
                     </li>
                 </ul>
             </div>
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://play.unity.com/mg/other/manpac-build-webgl">PACMAN 3D  <i> | Unity, C# </i></a>
+                    href="https://play.unity.com/mg/other/manpac-build-webgl">PACMAN 3D </a>
             </div>
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Synthesized gaming experience with immersive audio and visual elements, and smooth camera transitions, resulting in a significant
-                        25% increase in user satisfaction and a 15% boost in player engagement
+                        Synthesized gaming experience with immersive audio and visual elements, and smooth camera transitions, resulting in a
+                        significant 25% increase in user satisfaction and a 15% boost in player engagement.
                     </li>
                     <li>
-                        Pioneered responsive player controls and refined enemy AI, contributing to a 35% improvement in overall user experience
+                        Pioneered responsive player controls and refined enemy AI, contributing to a 35% improvement in overall user experience.
                     </li>
                     <li>
-                        Solved intricate technical challenges through methodical debugging, accomplishing a substantial 40% decrease in critical bugs
+                        Overcame intricate technical challenges through methodical debugging, accomplishing a 40% decrease in critical bugs.
                     </li>
                 </ul>
             </div>
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
-                Face Recognition and detection system <i> | python </i>
+                Face Recognition and detection system
             </div>
             <div class="Job_Desc">
                 <ul>
                     <li>
-                        Built an advanced face detection and recognition system using OpenCV library and SVM (Support Vector Machine) algorithm
+                        Built an advanced face detection and recognition system using OpenCV library and SVM (Support Vector Machine) algorithm.
                     </li>
                     <li>
-                        Extracted key facial features(eyes, nose, and mouth) utilizing a feature extraction algorithm and delivered a precision of 91% by
-                        training an SVM classifier on extracted facial features to perform face recognition
+                        Utilized advanced feature extraction algorithms to identify crucial facial components (eyes, ears, nose, and mouth).
+                    </li>
+                    <li>
+                        Attained 91% precision by training an SVM classifier on extracted features for precise face recognition
                     </li>
                 </ul>
             </div>
             <br>
             <div class="Job"><span class="far fa-hand-point-right"></span>
                 <a
-                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom <i> | Kotlin, Node-Red, Raspberry Pi, Arduino </i></a>
+                    href="https://thesai.org/Publications/ViewPaper?Volume=11&Issue=6&Code=IJACSA&SerialNo=84">Paracom </a>
             </div>
             <div class="Job_Desc">
                 <ul>
